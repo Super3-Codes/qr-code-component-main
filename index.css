@@ -1,0 +1,64 @@
+:root{
+	--main-bg-color: hsl(212, 45%, 89%);
+	--white: hsl(0, 0%, 100%);
+	--main-text-color: hsl(220, 15%, 55%);
+	--main-small-text-color: hsl(218, 44%, 22%);
+
+}
+body{
+	height: 100vh;
+	background-color: var(--main-bg-color);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	width: 210px;
+	background-color: white;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+
+}
+
+.image-container{
+	display: flex;
+	height: 180px;
+	width: 180px;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+
+
+}
+img {
+
+
+	height: 180px;
+	width: 180px;
+	border-radius: 20px;
+	padding: 10px;
+
+
+}
+.container p{
+	font-size: 15px;
+	font-family: outfit;
+	font-weight: bold;
+	text-align: center;
+	color: var(main-text-color);
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.container small{
+	font-size: 11px;
+	text-align: center;
+	color: var(main-small-text-color);
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
